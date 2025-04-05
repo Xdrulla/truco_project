@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+import jogo.Jogo;
 
 public class Main {
 

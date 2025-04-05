@@ -1,3 +1,4 @@
+package jogo;
 
 public enum Valor {
     QUATRO("4"),

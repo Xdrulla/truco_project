@@ -1,3 +1,4 @@
+package jogo;
 public class Carta {
   private final Valor valor;
   private final Naipe naipe;

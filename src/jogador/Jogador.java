@@ -1,7 +1,9 @@
+package jogador;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import jogo.Carta;
 
 public class Jogador {
 

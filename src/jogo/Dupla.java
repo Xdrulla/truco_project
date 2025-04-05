@@ -1,3 +1,5 @@
+package jogo;
+import jogador.Jogador;
 
 public class Dupla {
 

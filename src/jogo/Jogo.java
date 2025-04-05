@@ -1,6 +1,10 @@
+package jogo;
 
-import java.io.IOException;
+import jogador.Jogador;
+import jogador.JogadorBot;
+import jogador.JogadorRemoto;
 import java.util.*;
+import java.io.*;
 
 public class Jogo {
 

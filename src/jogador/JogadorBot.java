@@ -1,7 +1,10 @@
+package jogador;
 
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+
+import jogo.Carta;
 
 public class JogadorBot extends Jogador {
 

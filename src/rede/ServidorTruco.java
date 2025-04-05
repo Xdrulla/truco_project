@@ -1,7 +1,12 @@
+package rede;
 
 import java.io.*;
 import java.net.*;
 import java.util.Scanner;
+
+import jogador.Jogador;
+import jogador.JogadorRemoto;
+import jogo.Jogo;
 
 public class ServidorTruco {
 
@@ -15,7 +20,7 @@ public class ServidorTruco {
         Jogador jogador1 = new Jogador("Jogador 1", scanner);
         Jogador jogador2 = new JogadorRemoto("Jogador 2", socket, scanner);
 
-        Jogo jogo = new Jogo(3); // modo 3: 1x1 local
+        Jogo jogo = new Jogo(3);
         jogo.setJogadores(jogador1, jogador2);
         jogo.iniciar();
 

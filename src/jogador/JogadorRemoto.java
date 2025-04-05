@@ -1,7 +1,10 @@
+package jogador;
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
+
+import jogo.Carta;
 
 public class JogadorRemoto extends Jogador {
 
